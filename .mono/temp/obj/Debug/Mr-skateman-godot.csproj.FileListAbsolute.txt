@@ -1,0 +1,8 @@
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.csprojAssemblyReference.cache
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.AssemblyInfoInputs.cache
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.AssemblyInfo.cs
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.csproj.CoreCompileInputs.cache
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\bin\Debug\Mr-skateman-godot.dll
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\bin\Debug\Mr-skateman-godot.pdb
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.dll
+C:\Users\Jekko\Repositories\GodotProjects\mr-skateman-godot\.mono\temp\obj\Debug\Mr-skateman-godot.pdb

@@ -1,0 +1,114 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Ball.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/Ball.cs" type="Script" id=2]
+[ext_resource path="res://scripts/BallLabel2D.cs" type="Script" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 5.183, 32.1739 )
+
+[node name="MrSkateManMain" type="Node2D"]
+position = Vector2( 0, -1.41422 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 136.854 ]
+}
+
+[node name="Background" type="ColorRect" parent="."]
+margin_left = -21.1636
+margin_right = 618.836
+margin_bottom = 400.0
+color = Color( 0.305882, 0.309804, 0.352941, 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="WallContainer" type="Node" parent="."]
+
+[node name="Wall1" type="StaticBody2D" parent="WallContainer"]
+position = Vector2( 62.4195, 94.3133 )
+rotation = -1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallContainer/Wall1"]
+position = Vector2( 5.27911, 32.2193 )
+shape = SubResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="WallContainer/Wall1"]
+margin_left = 0.174845
+margin_top = 0.0429344
+margin_right = 10.1748
+margin_bottom = 64.0429
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Wall2" type="StaticBody2D" parent="WallContainer"]
+position = Vector2( 14.8018, 53.4257 )
+rotation = -0.8658
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallContainer/Wall2"]
+position = Vector2( 5.27911, 32.2193 )
+shape = SubResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="WallContainer/Wall2"]
+margin_left = 0.174845
+margin_top = 0.0429344
+margin_right = 10.1748
+margin_bottom = 64.0429
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Wall3" type="StaticBody2D" parent="WallContainer"]
+position = Vector2( 125.138, 95.8415 )
+rotation = -1.59447
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallContainer/Wall3"]
+position = Vector2( 5.27911, 32.2193 )
+shape = SubResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="WallContainer/Wall3"]
+margin_left = 0.174845
+margin_top = 0.0429344
+margin_right = 10.1748
+margin_bottom = 64.0429
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BallLabel2D" type="Node2D" parent="."]
+position = Vector2( 29.0724, 8.71728 )
+script = ExtResource( 3 )
+
+[node name="BallLabel" type="Label" parent="BallLabel2D"]
+margin_left = -20.2271
+margin_top = -27.3441
+margin_right = 19.7729
+margin_bottom = -13.3441
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ball" parent="." instance=ExtResource( 1 )]
+position = Vector2( 29.0724, 8.71728 )
+script = ExtResource( 2 )
+
+[node name="BallButton" type="Button" parent="Ball"]
+margin_left = -10.3746
+margin_top = -9.739
+margin_right = 11.6254
+margin_bottom = 10.261
+focus_mode = 0
+enabled_focus_mode = 0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
